@@ -14,6 +14,9 @@ public class MyAdapter {
 
     interface Translator {
         String translate();
+        default void test(){
+            System.out.println("test");
+        }
     }
 
     // 适配器
