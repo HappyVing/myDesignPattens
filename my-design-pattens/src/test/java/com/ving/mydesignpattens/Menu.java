@@ -1,21 +1,19 @@
 package com.ving.mydesignpattens;
 
-import com.alibaba.fastjson.annotation.JSONField;
-
 import java.util.ArrayList;
 
 public class Menu {
-    @JSONField(ordinal=1)
+//    @JSONField(ordinal=1)
     private int id;
-    @JSONField(ordinal=2)
+//    @JSONField(ordinal=2)
     private String menuName;//名称
-    @JSONField(ordinal=3)
+//    @JSONField(ordinal=3)
     private int parId;//上级ID
-    @JSONField(ordinal=4)
+//    @JSONField(ordinal=4)
     private int type;//0：目录；1：菜单
-    @JSONField(ordinal=5)
+//    @JSONField(ordinal=5)
     private String url;
-    @JSONField(ordinal=6)
+//    @JSONField(ordinal=6)
     public ArrayList<Menu> children;
 
     public Menu() {
